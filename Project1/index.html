@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasu Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Balsamiq+Sans?query=bal">
+<style>
+   /* CSS RESET */
+   body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.png.jpg');
+    height: 999999px;
+    font-family: 'Baloo 2',cursive;
+   }
+   .left{ display: inline-block;
+     
+     position: absolute;
+     left: 55px;
+     top: 20px;
+     font-size: 20px;
+     line-height: 19px;
+     
+
+   }
+   .mid{ display: block;
+    width: 50%;
+    margin: 20px auto;
+    color: grey;
+     
+
+   }
+   .right{ position:absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block; 
+     top: 20px;
+
+   }
+   .navbar{
+    display: inline-block;
+   }
+   .navbar li{
+    color: grey ;
+    
+    display: inline-block;
+    font-size: 25px;
+   }
+   .navbar li a{
+    color: grey;
+    
+    text-decoration: none;
+    padding: 34px 23px;
+   }
+   .navbar li a:hover , .navbar li a.active{ 
+    text-decoration: underline;
+    padding: 34px 23px;
+    color: blue;
+    transition: 1s;
+   }
+   .left img{ width: 199px;
+    filter: invert(100%);
+    padding: 0%;
+    height: 105px;
+ 
+    
+     
+   }
+   .left div{
+    text-align: center;
+    color: tomato;
+    line-height: 19px;
+    font-size: 26px;
+   }
+   .btn{
+    margin: 15px 9px;
+    color: grey;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Baloo 2',cursive;
+    width: 143px;
+    border-radius: 10px;  
+   }
+   .btn:hover{
+    color:blue;
+    transition: 1s;
+    
+   }
+   .container{
+    border: 2px solid white;
+    margin: 106px 112px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 28px;
+    text-align: center;
+
+   }
+   .container input{
+    margin: 8px;
+    padding: 3px;
+   }
+   .container h1{
+    color: lightskyblue;
+    text-align: center  ;
+   }
+   .formgroup input{
+    text-align: center;
+    display: block;
+    margin: 11px auto;
+    padding: 1px;
+    width: 450px;
+    border: 2px solid whitesmoke;
+    font-size: 25px;
+    border-radius: 8px;
+
+    
+
+   }
+  .formgroup input{
+    color: black;
+  }
+
+</style>
+<body>
+    <header class="header">
+    <div class="left">
+    <img src="img/gym.png.jpg" alt="">
+    <div> VASU FITNESS</div>
+    </div>
+        <div class="mid">
+            <ul class="navbar">
+               <li><a href="#" class="active">Home</a></li>
+               <li><a href="#">Fitness Calculator</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#"> Contact</a></li>
+            </ul>
+    </div>
+    <div class="right">
+    <button class="btn">Call us</button><button class="btn">Message us</button>
+    </div>
+  </header>
+  <div class="container"> 
+    <h1>Join The Best GYM Now!</h1>
+    <form action="noaction.php">
+    <div class="formgroup">
+     <input type="text" name="" placeholder="Enter Your Name">
+     <input type="text" name="" placeholder="Enter Your Contact">
+     <input type="text" name="" placeholder="Enter Your Age">
+     <input type="text" name="" placeholder="Enter Your Email">
+    </div>
+    <button class="btn">Submit</button>
+  </form>
+  </div>
+    
+</body>
+</html>
